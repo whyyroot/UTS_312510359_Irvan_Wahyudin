@@ -82,25 +82,26 @@ Proses pengerjaan website ini dibagi menjadi beberapa tahapan utama:
 Berikut adalah penampakan antarmuka dari website profil pribadi yang telah dibuat:
 
 ### 1. Tampilan Utam & Hero Panel (Desktop)
-![Tampilan Hero & Profil](docs/screenshot-hero.png)
+![Tampilan Hero & Profil](https://github.com/whyyroot/UTS_312510359_Irvan_Wahyudin/blob/main/img/1.jpg)
 *Gambar 1: Tampilan Header Sticky, Hero Panel, dan Biografi Utama.*
 
 ### 2. Riwayat Pendidikan & Pengalaman Kerja
-![Tampilan Tabel Data](docs/screenshot-tables.png)
+![Tampilan Tabel Data](https://github.com/whyyroot/UTS_312510359_Irvan_Wahyudin/blob/main/img/2.jpg)
+![Tampilan Tabel Data2](https://github.com/whyyroot/UTS_312510359_Irvan_Wahyudin/blob/main/img/3.jpg)
 *Gambar 2: Tampilan Tabel Riwayat Pendidikan dan Pengalaman Kerja Ritel.*
 
 ### 3. Pemutar Multimedia & Form Kontak
-![Tampilan Multimedia & Form](docs/screenshot-media-form.png)
+![Tampilan Multimedia & Form](https://github.com/whyyroot/UTS_312510359_Irvan_Wahyudin/blob/main/img/4.jpg)
 *Gambar 3: Tampilan Pemutar Audio/Video serta Formulir Kontak Interaktif.*
 
 ### 4. Tampilan Responsif (Mobile)
-![Tampilan Mobile](docs/screenshot-mobile.png)
+![Tampilan Mobile](https://github.com/whyyroot/UTS_312510359_Irvan_Wahyudin/blob/main/img/5.jpg) <br>
 *Gambar 4: Penyesuaian Layout pada Layar Perangkat Seluler (Smartphones).*
 
 ---
 
 ## 🚀 Mencoba Proyek
-<a href="https://tugas.wahyusite.web.id/"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a> for try web me
+<a href="http://uts.wahyusite.web.id/UTS_Web_312510359_IrvanWahyudin/"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a> for try web me
 
 
 
