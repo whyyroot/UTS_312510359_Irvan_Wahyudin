@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Pribadi - Irvan Wahyudin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- b. Terdapat Header, Navigasi, & Hero Panel -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#biografi">Profil</a></li>
+                <li><a href="#pendidikan">Pendidikan</a></li>
+                <li><a href="#pengalaman">Pengalaman</a></li>
+                <li><a href="#keahlian">Keahlian</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-panel">
+            <h1>Halo, Saya Irvan Wahyudin</h1>
+            <p>Mahasiswa Teknik Informatika | Assistant Chief of Store | Junior Network Enggenering</p>
+        </section>
+
+        <!-- c. Terdapat Bagian Biografi & Profil Utama -->
+        <section id="biografi">
+            <h2>Biografi & Profil Utama</h2>
+            <div class="profile-container">
+                <img src="images/profil.jpg" alt="Foto Profil Irvan Wahyudin" class="profile-img">
+                <div class="profile-text">
+                    <p>Perkenalkan, nama saya <strong>Irvan Wahyudin</strong>. Saya adalah mahasiswa aktif program studi
+                        Teknik Informatika di <strong>Universitas Pelita Bangsa</strong>. Saat ini saya berdomisili di
+                        Bekasi dan bekerja sebagai Assistant Chief of Store di Alfamart.</p>
+                    <p>Saya memiliki minat yang besar pada siber security, serta administrasi sistem dan jaringan
+                        (Linux, OpenWrt, MikroTik). Saya menyukai eksperimen membangun server mandiri dan menganalisis
+                        keamanan siber.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- d. Terdapat Tabel Riwayat Pendidikan -->
+        <section id="pendidikan">
+            <h2>Riwayat Pendidikan</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Institusi Pendidikan</th>
+                        <th>Jurusan / Program</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2022 - Sekarang</td>
+                        <td>Universitas Pelita Bangsa</td>
+                        <td>S1 Teknik Informatika</td>
+                    </tr>
+                    <tr>
+                        <td>2026</td>
+                        <td>ID-Networkers</td>
+                        <td>Cyber Security Bootcamp (Beasiswa)</td>
+                    </tr>
+                    <tr>
+                        <td>2018 -2020</td>
+                        <td>SMK 11 Maret</td>
+                        <td>Teknik Komputer dan Jaringan</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- e. Terdapat Tabel Riwayat Pengalaman Kerja -->
+        <section id="pengalaman">
+            <h2>Riwayat Pengalaman Kerja</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tahun</th>
+                        <th>Perusahaan</th>
+                        <th>Posisi</th>
+                        <th>Deskripsi Pekerjaan</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2024 - Sekarang</td>
+                        <td>Alfamart (CJ09 / Meikarta Standford)</td>
+                        <td>Assistant Chief of Store</td>
+                        <td>Mengelola operasional harian toko, memastikan target penjualan tercapai dan kebersihan area
+                            toko
+                            Melakukan stock opname, penataan gudang, display barang dengan metode FIFO & FEFO sesuai
+                            planogram
+                            Melakukan pelaporan keuangan harian dan briefing tim terkait kinerja crew store
+                            Menguasai berbagai sistem transaksi menggunakan aplikasi POS, EDC, dan berbagai E-wallet
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2022 - 2024</td>
+                        <td>Alfamart (CJ09 / Meikarta Standford)</td>
+                        <td>Crew</td>
+                        <td>operasional ritel yang berdedikasi dan terampil dalam eksekusi Planograms, pemajangan Retail Displays, serta Troubleshooting operasional harian</td>
+                    </tr>
+                </tbody>        
+            </table>
+        </section>
+
+        <!-- f. Terdapat Riwayat Keahlian (Unordered List) -->
+        <section id="keahlian">
+            <h2>Keahlian</h2>
+            <ul>
+                <li><strong>Bahasa Pemrograman:</strong> Python, Java, SQL, HTML5, CSS3.</li>
+                <li><strong>Administrasi Sistem & Jaringan:</strong> Linux (Armbian/Mint), OpenWrt, MikroTik RouterOS,
+                    Cisco Networking.</li>
+                <li><strong>Keamanan & Forensik Siber:</strong> Analisis log jaringan, Wireshark PCAP, Windows Event Log
+                    (EVTX).</li>
+                <li><strong>Perangkat Keras:</strong> Hardware & Software troubleshooting, Setup NAS (CasaOS) di STB.</li>
+            </ul>
+        </section>
+
+        <!-- g. Terdapat Elemen Multimedia -->
+        <section id="multimedia">
+            <h2>Multimedia Perkenalan</h2>
+            <div class="media-container">
+                <div class="media-box">
+                    <h3>Audio Perkenalan</h3>
+                    <audio controls>
+                        <source src="media/audio.mp3" type="audio/mpeg">
+                        Browser Anda tidak mendukung elemen audio HTML5.
+                    </audio>
+                </div>
+                <div class="media-box">
+                    <h3>Video Portofolio</h3>
+                    <video controls width="100%">
+                        <source src="media/video.mp4" type="video/mp4">
+                        Browser Anda tidak mendukung elemen video HTML5.
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- h. Terdapat Form Kontak / Pesan Interaktif & Validasi -->
+        <section id="kontak">
+            <h2>Hubungi Saya</h2>
+            <form action="#" method="POST" class="contact-form">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap:</label>
+                    <!-- Validasi required -->
+                    <input type="text" id="nama" name="nama" required placeholder="Masukkan nama Anda">
+                </div>
+                <div class="form-group">
+                    <label for="email">Alamat Email:</label>
+                    <!-- Validasi tipe email dan required -->
+                    <input type="email" id="email" name="email" required placeholder="email@domain.com">
+                </div>
+                <div class="form-group">
+                    <label for="pesan">Pesan:</label>
+                    <textarea id="pesan" name="pesan" rows="5" required
+                        placeholder="Tuliskan pesan Anda di sini..."></textarea>
+                </div>
+                <button type="submit">Kirim Pesan</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Irvan Wahyudin - Tugas UTS Pemrograman Web HTML5 & CSS3</p>
+    </footer>
+</body>
+
+</html>
