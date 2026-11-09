@@ -99,8 +99,8 @@ Berikut adalah penampakan antarmuka dari website profil pribadi yang telah dibua
 
 ---
 
-## 🚀 Cara Menjalankan Proyek
-
+## 🚀 Mencoba Proyek
+<a href="https://tugas.wahyusite.web.id/"><img src="https://img.shields.io/badge/CLICK_IN_HERE-8A2BE2"/></a> for try web me
 
 
 
